@@ -31,6 +31,7 @@ public class AdminServices {
     }
 
     private Utilisateur EditerUtilisateur(Utilisateur user) {
+
         if (user.getRole == "ADMIN") {
             adminRepository.save(user);
         } else if (user.getRole == "CAISSIERE") {
@@ -38,5 +39,8 @@ public class AdminServices {
         } else {
             abonneRepository.save(user);
         }
+    }
+    private void deleteUser(){
+        
     }
 }
