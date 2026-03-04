@@ -15,4 +15,8 @@ public class Cassette {
 
     private CategorieFilm categorie;
 
+    private boolean disponibilite;
+
+    private int Quantite;
+
 }

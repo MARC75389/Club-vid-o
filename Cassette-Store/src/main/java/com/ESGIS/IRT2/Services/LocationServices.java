@@ -33,4 +33,10 @@ public class LocationServices {
     public Iterable<Location> afficherLalisteDesLocations(){
        return locationRepository.findAll();
     }
+    public Iterable<Location> afficherLaListeDesLocationDunAbonne(String userName){
+        return null;
+    }
+    public Iterable<Location> afficherLaListeDesLocationsEffectuerParUneSecretaire(String Caissiere){
+        return null;
+    }
 }
